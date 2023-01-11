@@ -3,6 +3,69 @@ import { motion } from 'framer-motion';
 import Skill from './Skill';
 
 const Skills = () => {
+  const skills = [
+    {
+      id:'1',
+      image:'/img/javascript.png',
+      profieciency:"80%"
+    },
+    {
+      id:'1',
+      image:'/img/react.png',
+      profieciency:"85%"
+    },
+    {
+      id:'1',
+      image:'/img/nextjs-icon.png',
+      profieciency:"80%"
+    },
+    {
+      id:'1',
+      image:'/img/mongodb.png',
+      profieciency:"75%"
+    },
+    {
+      id:'1',
+      image:'/img/html5.png',
+      profieciency:"90%"
+    },
+    {
+      id:'1',
+      image:'/img/css3.png',
+      profieciency:"85%"
+    },
+    {
+      id:'1',
+      image:'/img/tailwind-css.png',
+      profieciency:"70%"
+    },
+    {
+      id:'1',
+      image:'/img/angular.png',
+      profieciency:"80%"
+    },
+    {
+      id:'1',
+      image:'/img/firebase.png',
+      profieciency:"70%"
+    },
+    {
+      id:'1',
+      image:'/img/mysql.png',
+      profieciency:"70%"
+    },
+    {
+      id:'1',
+      image:'/img/github.png',
+      profieciency:"80%"
+    },
+    {
+      id:'1',
+      image:'/img/visual-studio-code.png',
+      profieciency:"80%"
+    },
+
+  ]
   return (
     <motion.div
       initial={{ opacity: 1 }}
@@ -17,7 +80,10 @@ const Skills = () => {
         Hover over skill for current profieciency
       </h3>
       <div className="grid grid-cols-3 gap-4 p-10 pt-20 md:mt-[140px] xl:pt-[180px] md:grid-cols-4">
-        <Skill src="/img/javascript.png" profieciency="80%" />
+        {skills.map((skill, i) => (
+          <Skill key={i} src={skill.image} profieciency={skill.profieciency} />
+        ))}
+        {/* <Skill src="/img/javascript.png" profieciency="80%" />
         <Skill src="/img/react.png" profieciency="85%"/>
         <Skill src="/img/nextjs-icon.png" profieciency="80%"/>
         <Skill src="/img/nodejs.png" profieciency="70%"/>
@@ -29,7 +95,7 @@ const Skills = () => {
         <Skill src="/img/firebase.png" profieciency="70%"/>
         <Skill src="/img/mysql.png" profieciency="70%"/>
         <Skill src="/img/github.png" profieciency="80%"/>
-        <Skill src="/img/visual-studio-code.png" profieciency="90%"/>
+        <Skill src="/img/visual-studio-code.png" profieciency="90%"/> */}
         
       </div>
     </motion.div>
