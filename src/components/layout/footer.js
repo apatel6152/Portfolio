@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { SocialIcon } from 'react-social-icons';
-import { Container } from '../ui/containers';
 
 const Footer = () => {
   return (

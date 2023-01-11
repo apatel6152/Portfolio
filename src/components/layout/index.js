@@ -1,6 +1,5 @@
 import Footer from './footer';
 import Main from './main';
-import Navbar from './Navbar';
 import SEO from './seo';
 
 const Layout = ({ seoTitle, seoDesc, seoPath, seoChildren, children }) => {
@@ -9,7 +8,6 @@ const Layout = ({ seoTitle, seoDesc, seoPath, seoChildren, children }) => {
       <SEO title={seoTitle} description={seoDesc} path={seoPath}>
         {seoChildren}
       </SEO>
-      {/* <Navbar /> */}
       <Main>{children}</Main>
       <Footer />
     </>
