@@ -1,7 +1,7 @@
 import About from '../components/About';
 import Hero from '../components/Hero';
 import Layout from '../components/layout';
-import Navbar from '../components/layout/Navbar';
+import Navbar from '../components/layout/navbar';
 import Skills from '../components/Skills';
 // import Projects from '../components/Projects';
 import Project from '../components/Project';
