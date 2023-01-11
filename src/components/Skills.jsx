@@ -5,7 +5,7 @@ import Skill from './Skill';
 const Skills = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 1 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="h-fit mt-10 flex flex-col text-center md:text-left md:flex-row xl:flex-row md:justify-center max-w-full xl:px-10 min-h-fit xl:space-y-0 relative mx-auto items-center"
