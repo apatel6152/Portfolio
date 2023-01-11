@@ -6,11 +6,11 @@ const Skill = ({ src, profieciency }) => {
     <div className="group relative flex cursor-pointer">
       <motion.img
         initial={{
-          x: -150,
+          x: -130,
           opacity: 0,
         }}
         transition={{
-          duration: 1.0,
+          duration: 0.8,
         }}
         whileInView={{
           x: 0,
