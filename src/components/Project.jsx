@@ -39,7 +39,7 @@ const Project = () => {
     {
       id:'3',
       projectname: 'Instagram Clone',
-      img: 'img/instagram.jpg',
+      img: 'img/Instagram.jpg',
       technologies: [
         'img/javascript.png',
         'img/react.png',
