@@ -13,7 +13,7 @@
     "@heroicons/react": "^2.0.13",
     "@next/codemod": "^13.1.1",
     "@sendgrid/mail": "^7.7.0",
-    "framer-motion": "^8.2.4",
+    "framer-motion": "^8.4.0",
     "next": "^13.1.1",
     "next-sitemap": "^3.1.44",
     "react": "^18.2.0",
