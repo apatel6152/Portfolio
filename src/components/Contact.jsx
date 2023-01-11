@@ -73,7 +73,7 @@ const Contact = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 1 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.0 }}
       className="h-fit flex flex-col overflow-hidden max-w-full relative mx-auto items-center mt-10  text-left "

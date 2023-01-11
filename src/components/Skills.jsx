@@ -16,7 +16,7 @@ const Skills = () => {
       <h3 className="md:absolute top-28 uppercase tracking-[3px] mb-2 text-sm text-[#164760]">
         Hover over skill for current profieciency
       </h3>
-      <div className="grid grid-cols-3 gap-5 p-10 pt-20 md:mt-[140px] xl:pt-[180px] md:grid-cols-4">
+      <div className="grid grid-cols-3 gap-4 p-10 pt-20 md:mt-[140px] xl:pt-[180px] md:grid-cols-4">
         <Skill src="/img/javascript.png" profieciency="80%" />
         <Skill src="/img/react.png" profieciency="85%"/>
         <Skill src="/img/nextjs-icon.png" profieciency="80%"/>

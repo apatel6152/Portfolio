@@ -93,7 +93,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen text-[#fff] bg-gradient-to-b from-[#164760] to-[#000]" p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-fit text-[#fff] bg-gradient-to-b from-[#164760] to-[#000]" p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -101,14 +101,6 @@ const Navbar = () => {
             <div className="flex font-semibold w-full items-center justify-between uppercase">
               <Link href="/">
                 Amit's Portfolio
-                {/* <a>
-                  <Image
-                    src={NavLogo}
-                    width='87'
-                    height='35'
-                    alt='/'
-                  />
-                </a> */}
               </Link>
               <div
                 onClick={handleNav}

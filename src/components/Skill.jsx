@@ -16,7 +16,7 @@ const Skill = ({ src, profieciency }) => {
           x: 0,
           opacity: 1,
         }}
-        className="rounded-full border p-2 border-[#164760] object-contain w-[90px] h-[90px] md:w-32 md:h-32 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
+        className="rounded-full border p-2 border-[#164760] object-contain w-[80px] h-[80px] md:w-32 md:h-32 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
         src={src}
         alt=""
       />
