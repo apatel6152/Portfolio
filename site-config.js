@@ -1,11 +1,11 @@
 const siteConfig = {
-  title: "Rishit's Default Next.js Starter",
+  title: "Amit's Portfolio",
   tagline:
-    'This is a starter template for Next.js projects with Tailwind CSS, SEO, and more.',
-  url: 'https://nextjs-starter.rishit.dev',
+    'This is a personal web developer portfolio',
+  url: 'https://amit303.me',
   baseUrl: '/',
-  projectName: 'rp-nextjs-starter',
-  organizationName: 'rishitpatel.com',
+  projectName: 'personal-portfolio',
+  organizationName: '',
 };
 
 module.exports = siteConfig;

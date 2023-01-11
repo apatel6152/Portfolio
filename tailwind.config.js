@@ -6,7 +6,12 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero' : "url('/img/intro3.jpeg')",
+        "contact": "url('/img/contact.jpg')",
+      }
+    },
   },
   plugins: [],
 };

@@ -1,5 +1,5 @@
 {
-  "name": "rp-nextjs-starter",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,12 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@next/codemod": "^13.1.1",
+    "@sendgrid/mail": "^7.7.0",
+    "framer-motion": "^8.2.4",
     "next": "^13.1.1",
     "next-sitemap": "^3.1.44",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-gtm-module": "^2.0.11",
+    "react-icons": "^4.7.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^5.15.0",
     "sass": "^1.57.1"
   },
   "devDependencies": {
