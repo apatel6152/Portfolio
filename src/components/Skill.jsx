@@ -6,7 +6,7 @@ const Skill = ({ src, profieciency }) => {
     <div className="group relative flex cursor-pointer">
       <motion.img
         initial={{
-          x: -130,
+          x: -100,
           opacity: 0,
         }}
         transition={{
