@@ -79,7 +79,7 @@ const Skills = () => {
       <h3 className="md:absolute top-28 uppercase tracking-[3px] mb-2 text-sm text-[#164760]">
         Hover over skill for current profieciency
       </h3>
-      <div className="grid grid-cols-3 gap-4 p-10 pt-20 md:mt-[140px] xl:pt-[180px] md:grid-cols-4">
+      <div className="w-full grid grid-cols-3 gap-4 p-10 pt-20 md:mt-[140px] xl:pt-[180px] md:grid-cols-4">
         {skills.map((skill, i) => (
           <Skill key={i} src={skill.image} profieciency={skill.profieciency} />
         ))}
