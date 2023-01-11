@@ -10,57 +10,57 @@ const Skills = () => {
       profieciency:"80%"
     },
     {
-      id:'1',
+      id:'2',
       image:'/img/react.png',
       profieciency:"85%"
     },
     {
-      id:'1',
+      id:'3',
       image:'/img/nextjs-icon.png',
       profieciency:"80%"
     },
     {
-      id:'1',
+      id:'4',
       image:'/img/mongodb.png',
       profieciency:"75%"
     },
     {
-      id:'1',
+      id:'5',
       image:'/img/html5.png',
       profieciency:"90%"
     },
     {
-      id:'1',
+      id:'6',
       image:'/img/css3.png',
       profieciency:"85%"
     },
     {
-      id:'1',
+      id:'7',
       image:'/img/tailwind-css.png',
       profieciency:"70%"
     },
     {
-      id:'1',
+      id:'8',
       image:'/img/angular.png',
       profieciency:"80%"
     },
     {
-      id:'1',
+      id:'9',
       image:'/img/firebase.png',
       profieciency:"70%"
     },
     {
-      id:'1',
+      id:'10',
       image:'/img/mysql.png',
       profieciency:"70%"
     },
     {
-      id:'1',
+      id:'11',
       image:'/img/github.png',
       profieciency:"80%"
     },
     {
-      id:'1',
+      id:'12',
       image:'/img/visual-studio-code.png',
       profieciency:"80%"
     },
