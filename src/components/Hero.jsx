@@ -15,8 +15,8 @@ const Hero = () => {
     <div className="h-[70vh] pt-12 bg-hero bg-cover bg-center text-white md:h-[80vh] flex flex-col space-y-8  items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relative rounded-full h-[180px] w-[180px] mx-auto object-cover"
-        src="/img/dp.jpg"
+        className="relative rounded-full h-[180px] w-[180px] mx-auto object-cover object-top"
+        src="/img/profile.jpg"
         width="500"
         height="500"
         alt=""
