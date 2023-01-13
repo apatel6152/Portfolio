@@ -9,32 +9,32 @@ const Footer = () => {
           <SocialIcon
             url="https://www.linkedin.com/in/amit-patel-755a95178/"
             target="_blank"
-            fgColor="#164760"
-            bgColor="transparent"
+            // fgColor="#164760"
+            // bgColor="transparent"
           />
         </div>
         <div className="p-1 m-1 rounded-full hover:bg-[#eee]">
           <SocialIcon
             url="https://github.com/apatel6152"
             target="_blank"
-            fgColor="#164760"
-            bgColor="transparent"
+            // fgColor="#164760"
+            // bgColor="transparent"
           />
         </div>
         <div className="p-1 m-1 rounded-full hover:bg-[#eee] ">
           <SocialIcon
             url="https://www.instagram.com/amit_patel_303/"
             target="_blank"
-            fgColor="#164760"
-            bgColor="transparent"
+            // fgColor="#164760"
+            // bgColor="transparent"
           />
         </div>
         <div className="p-1 m-1 rounded-full hover:bg-[#eee]">
           <SocialIcon
             url="https://www.facebook.com/profile.php?id=100005975611113"
             target="_blank"
-            fgColor="#164760"
-            bgColor="transparent"
+            // fgColor="#164760"
+            // bgColor="transparent"
           />
         </div>
       </div>
