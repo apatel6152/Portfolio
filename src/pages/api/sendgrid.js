@@ -9,7 +9,11 @@ async function sendEmail(req, res) {
       to: 'rkpatel1706@gmail.com', // Your email where you'll receive emails
       from: process.env.NEXT_PUBLIC_SENDGRID_MAIL, // your website email address here
       subject: `${req.body.subject}`,
-      html: `<div>${req.body.message}</div>`,
+      html: `<div>
+              <div>Email: ${req.body.email}</div>
+              <div>Full Name: ${req.body.fullname}</div>
+              <div>Message: ${req.body.message}</div>
+            </div>`,
     });
   } catch (error) {
     // console.log(error);
