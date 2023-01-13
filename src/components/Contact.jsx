@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 
 const Contact = () => {
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [fullname, setFullname] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
   //   Form validation state
   const [errors, setErrors] = useState({});
@@ -17,24 +17,24 @@ const Contact = () => {
     let isValid = true;
 
     if (fullname.length <= 0) {
-      tempErrors["fullname"] = true;
+      tempErrors['fullname'] = true;
       isValid = false;
     }
     if (email.length <= 0) {
-      tempErrors["email"] = true;
+      tempErrors['email'] = true;
       isValid = false;
     }
     if (subject.length <= 0) {
-      tempErrors["subject"] = true;
+      tempErrors['subject'] = true;
       isValid = false;
     }
     if (message.length <= 0) {
-      tempErrors["message"] = true;
+      tempErrors['message'] = true;
       isValid = false;
     }
 
     setErrors({ ...tempErrors });
-    console.log("errors", errors);
+    console.log('errors', errors);
     return isValid;
   };
 
@@ -45,7 +45,7 @@ const Contact = () => {
     let isValidForm = handleValidation();
 
     if (isValidForm) {
-      const res = await fetch("/api/sendgrid", {
+      const res = await fetch('/api/sendgrid', {
         body: JSON.stringify({
           email: email,
           fullname: fullname,
@@ -53,9 +53,9 @@ const Contact = () => {
           message: message,
         }),
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
-        method: "POST",
+        method: 'POST',
       });
 
       const { error } = await res.json();
@@ -68,7 +68,6 @@ const Contact = () => {
       setSubject('');
       setMessage('');
     }
-      
   };
 
   return (
@@ -108,9 +107,10 @@ const Contact = () => {
           </div>
         </div>
 
-        <form 
-        onSubmit={handleSubmit}
-        className="flex flex-col items-center justify-center space-y-2  mx-auto">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col items-center justify-center space-y-2  mx-auto"
+        >
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
             <input
               placeholder="Name"
@@ -118,8 +118,8 @@ const Contact = () => {
               type="text"
               value={fullname}
               onChange={(e) => {
-              setFullname(e.target.value);
-            }}
+                setFullname(e.target.value);
+              }}
             />
             <input
               placeholder="Email"
@@ -127,8 +127,8 @@ const Contact = () => {
               type="text"
               value={email}
               onChange={(e) => {
-              setEmail(e.target.value);
-            }}
+                setEmail(e.target.value);
+              }}
             />
           </div>
 
@@ -138,7 +138,7 @@ const Contact = () => {
             type="text"
             value={subject}
             onChange={(e) => {
-                setSubject(e.target.value);
+              setSubject(e.target.value);
             }}
           />
 
