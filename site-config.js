@@ -1,5 +1,5 @@
 const siteConfig = {
-  title: "Amit's Portfolio",
+  title: "Amit Patel Portfolio",
   tagline:
     'This is a personal web developer portfolio',
   url: 'https://amit303.me',
