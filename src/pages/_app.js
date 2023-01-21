@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import TagManager from 'react-gtm-module';
+import { Analytics } from '@vercel/analytics/react';
 import '../styles/main.scss';
 
 const MyApp = ({ Component, pageProps }) => {
@@ -9,7 +10,12 @@ const MyApp = ({ Component, pageProps }) => {
     }
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 };
 
 export default MyApp;
