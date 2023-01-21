@@ -1,7 +1,7 @@
 const siteConfig = {
-  title: "Amit Patel Portfolio",
+  title: "Amit Patel - Portfolio",
   tagline:
-    'This is a personal web developer portfolio',
+    'I am <b>Amit Patel</b>. Check out my personal <b>portfolio</b> at amit303.me. ',
   url: 'https://amit303.me',
   baseUrl: '/',
   projectName: 'personal-portfolio',

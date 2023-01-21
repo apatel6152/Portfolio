@@ -35,7 +35,7 @@ const SEO = ({
       <meta name='twitter:url' content={seoUrl} />
 
       {/* Images */}
-      <link rel='icon' href='/favicon.ico' />
+      <link rel='icon' href='/favicon.ico' type="image/x-icon" />
       {/* <meta property='og:image' content={`${siteConfig.url}/og-image.png`} />
       <meta name='twitter:image' content={`${siteConfig.url}/og-image.png`} /> */}
 
