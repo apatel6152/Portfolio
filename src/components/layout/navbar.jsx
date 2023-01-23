@@ -40,7 +40,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center  w-full h-full  px-8 xl:px-16 text-white ">
         <Link href="/">
-          <div className="uppercase font-medium xl:ml-20">Amit's Portfolio</div>
+          <h1 className="uppercase font-medium xl:ml-20">Amit's Portfolio</h1>
         </Link>
         <div >
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex  xl:mr-20">
@@ -97,7 +97,7 @@ const Navbar = () => {
           <div>
             <div className="flex font-semibold w-full items-center justify-between uppercase">
               <Link href="/">
-                Amit's Portfolio
+                <h1>Amit's Portfolio</h1>
               </Link>
               <div
                 onClick={handleNav}
