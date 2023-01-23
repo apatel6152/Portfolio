@@ -9,6 +9,7 @@ const Footer = () => {
           <SocialIcon
             url="https://www.linkedin.com/in/amit-patel-755a95178/"
             target="_blank"
+            rel="noopener noreferrer"
             // fgColor="#164760"
             // bgColor="transparent"
           />
@@ -17,6 +18,7 @@ const Footer = () => {
           <SocialIcon
             url="https://github.com/apatel6152"
             target="_blank"
+            rel="noopener noreferrer"
             // fgColor="#164760"
             // bgColor="transparent"
           />
@@ -25,6 +27,7 @@ const Footer = () => {
           <SocialIcon
             url="https://www.instagram.com/amit_patel_303/"
             target="_blank"
+            rel="noopener noreferrer"
             // fgColor="#164760"
             // bgColor="transparent"
           />
@@ -33,6 +36,7 @@ const Footer = () => {
           <SocialIcon
             url="https://www.facebook.com/profile.php?id=100005975611113"
             target="_blank"
+            rel="noopener noreferrer"
             // fgColor="#164760"
             // bgColor="transparent"
           />
@@ -41,7 +45,7 @@ const Footer = () => {
       {/* <Container className="flex justify-center items-center text-sm font-medium"> */}
       <div className='flex justify-center items-center text-base font-semibold pb-5'>
         © {new Date().getFullYear()}&nbsp;
-        <Link href={'/'} target="_blank" rel="noopener noreferrer">
+        <Link href={'/'} rel="noopener noreferrer">
           Amit Patel
         </Link>
         . All Rights Reserved.

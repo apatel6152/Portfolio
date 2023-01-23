@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 
 const Contact = () => {
@@ -88,20 +89,22 @@ const Contact = () => {
           I have got just what you need.{' '}
           <span className="underline decoration-[#ffffff]/50"> Lets Talk.</span>
         </h4>
-        <div className="space-y-4 mb-6">
+        <div itemScope itemType ="https://schema.org/Person" className="space-y-4 mb-6">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg font-medium md:text-xl">+1-647-939-9303</p>
+            <p itemProp='tel' className="text-lg font-medium md:text-xl">+1-647-939-9303</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg font-medium md:text-xl">
+            <Link href='mailto:amit3031998@gmail.com'>
+            <p itemProp='email' className="text-lg font-medium md:text-xl">
               amit3031998@gmail.com
             </p>
+            </Link>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg font-medium md:text-xl">
+            <p itemProp='address' className="text-lg font-medium md:text-xl">
               Kitchener, Ontario, Canada{' '}
             </p>
           </div>
