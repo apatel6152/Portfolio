@@ -3,13 +3,13 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('transparent');
+  // const [navBg, setNavBg] = useState('transparent');
   const [linkColor, setLinkColor] = useState('#ffffff');
 
   const handleNav = () => {
@@ -20,10 +20,10 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
         setShadow(true);
-        setNavBg('#164760');
+        // setNavBg('#164760');
       } else {
         setShadow(false);
-        setNavBg('transparent');
+        // setNavBg('transparent');
       }
     };
     window.addEventListener('scroll', handleShadow);
@@ -31,10 +31,10 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
+      // style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-[66px] shadow-xl z-[100] ease-in-out duration-300 '
+          ? 'fixed w-full h-[66px] shadow-xl z-[100] ease-in-out duration-300 bg-[#164760]'
           : 'fixed w-full h-[66px] z-[100] '
       }
     >
@@ -83,7 +83,7 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/80' : ''
         }
       >
         {/* Side Drawer Menu */}
