@@ -43,7 +43,7 @@ const Navbar = () => {
           <h1 className="uppercase font-medium xl:ml-20">Amit's Portfolio</h1>
         </Link>
         <div >
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex  xl:mr-20">
+          <ul className="hidden md:flex  xl:mr-20">
 
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="#about">About</Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </ul>
           {/* Hamburger Icon */}
           <div
-            style={{ color: `${linkColor}` }}
+            // style={{ color: `${linkColor}` }}
             onClick={handleNav}
             className="md:hidden "
           >
