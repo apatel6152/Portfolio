@@ -19,19 +19,19 @@ const ExperienceCard = () => {
         viewport={{ once: true }}
         className="w-32 h-32 rounded-full md:w-[170px] md:h-[170px] xl:w-[200px] xl:h-[200px] object-cover object-center"
         src="/img/UT.jpg"
-        alt=""
+        alt="companylogo"
       />
 
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Web Develpoer</h4>
         <p className="font-bold text-2xl mt-1">Universal Technolabs</p>
         <div className="flex space-x-2 my-2">
-          <img className="h-10 w-10 rounded-full" src="img/javascript.png" alt="" />
-          <img className="h-10 w-10 rounded-full" src="img/react.png" alt="" />
-          <img className="h-10 w-10 rounded-full" src="img/mongodb.png" alt="" />
-          <img className="h-10 w-10 rounded-full" src="img/nodejs.png" alt="" />
-          <img className="h-10 w-10 rounded-full" src="img/html5.png" alt="" />
-          <img className="h-10 w-10 rounded-full" src="img/css3.png" alt="" />
+          <img className="h-10 w-10 rounded-full" src="img/javascript.png" alt="skill-js" />
+          <img className="h-10 w-10 rounded-full" src="img/react.png" alt="skill-react" />
+          <img className="h-10 w-10 rounded-full" src="img/mongodb.png" alt="skill-mongodb" />
+          <img className="h-10 w-10 rounded-full" src="img/nodejs.png" alt="skill-nodejs" />
+          <img className="h-10 w-10 rounded-full" src="img/html5.png" alt="skill-html" />
+          <img className="h-10 w-10 rounded-full" src="img/css3.png" alt="skill-css" />
         </div>
         <p className="uppercase py-5 text-black font-semibold">June 2020 - April 2021</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">

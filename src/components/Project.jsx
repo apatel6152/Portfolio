@@ -8,6 +8,7 @@ const Project = () => {
       id:'1',
       projectname: 'CMS BLOG',
       img: 'img/cms.jpg',
+      alt:'cms',
       technologies: [
         'img/javascript.png',
         'img/react.png',
@@ -23,6 +24,7 @@ const Project = () => {
       id:'2',
       projectname: 'Ecommerce MERN Store',
       img: 'img/ecommerceproject.jpg',
+      alt:'ecommerceproject',
       technologies: [
         'img/react.png',
         'img/javascript.png',
@@ -40,6 +42,7 @@ const Project = () => {
       id:'3',
       projectname: 'Instagram Clone',
       img: 'img/Instagram.jpg',
+      alt:'instagramclone',
       technologies: [
         'img/javascript.png',
         'img/react.png',
@@ -57,6 +60,7 @@ const Project = () => {
       id:'4',
       projectname: 'Share Memories',
       img: 'img/sharememories.jpg',
+      alt:'sharememories',
       technologies: [
         'img/javascript.png',
         'img/react.png',
@@ -80,6 +84,7 @@ const Project = () => {
       id:'5',
       projectname: 'JustForFoodies',
       img: 'img/justforfoodie.jpg',
+      alt:'justforfoodies',
       technologies: [
         'img/angular.png',
         'img/mongodb.png',

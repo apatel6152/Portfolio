@@ -30,7 +30,7 @@ const About = () => {
         src="/img/about.jpg"
         width="500"
         height="500"
-        alt=""
+        alt="aboutimage"
       />
       <div className="space-y-8 mt-12 px-0 md:px-10 ">
         <h4 className="text-[22px] md:text-2xl xl:text-3xl  font-semibold">

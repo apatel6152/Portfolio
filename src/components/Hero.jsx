@@ -19,7 +19,7 @@ const Hero = () => {
         src="/img/profile.jpg"
         width="500"
         height="500"
-        alt=""
+        alt="profileimage"
       />
       <div className="z-20">
         <h2 className="uppercase text-sm font-medium pb-2 tracking-[10px] md:tracking-[15px] ">

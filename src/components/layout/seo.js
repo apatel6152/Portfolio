@@ -21,6 +21,7 @@ const SEO = ({
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='robots' content='index, follow' />
       <meta name='description' content={description} />
+      <meta httpEquiv= "content-language" content = "en"/>
       <meta name='og:title' property='og:title' content={title} />
       <meta
         name='og:description'

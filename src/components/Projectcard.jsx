@@ -20,7 +20,7 @@ const Projectcard = ({ project }) => {
         viewport={{ once: true }}
         className="w-[80vw] h-[30vh] md:w-[40vw] md:h-[30vh] xl:w-[30vw] xl:h-[30vh] object-cover object-center"
         src={project.img}
-        alt=""
+        alt={project.alt}
       />
 
       <div className=" md:px-10 md:w-[40vw] xl:w-full px-10 py-10">
@@ -32,7 +32,7 @@ const Projectcard = ({ project }) => {
               key={i}
               className="h-10 w-10 rounded-full object-contain"
               src={img}
-              alt=""
+              alt="skills"
             />
           ))}
         </div>
