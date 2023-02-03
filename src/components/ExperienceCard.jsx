@@ -33,7 +33,7 @@ const ExperienceCard = () => {
           <img className="h-10 w-10 rounded-full" src="img/html5.png" alt="skill-html" />
           <img className="h-10 w-10 rounded-full" src="img/css3.png" alt="skill-css" />
         </div>
-        <p className="uppercase py-5 text-black font-semibold">Feb 2020 - April 2021</p>
+        <p className="uppercase py-5 text-black font-semibold">Feb2020 - April 2021</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           <li>
             Developed client-based projects alongside other
