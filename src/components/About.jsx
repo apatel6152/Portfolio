@@ -10,7 +10,7 @@ const About = () => {
       transition={{ duration: 1.5 }}
       className="h-fit flex flex-col relative mt-10 py-10 xl:pt-[100px] text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="md:absolute top-14 uppercase tracking-[15px] text-3xl font-bold text-[#164760]">
+      <h3 className="hover:scale-105 shadow-lg shadow-gray-500 md:absolute top-14 uppercase tracking-[15px] text-3xl font-bold text-[#164760]">
         About
       </h3>
       <motion.img
